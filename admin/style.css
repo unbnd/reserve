@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins';
+    color: #fff;
+}
+body {
+    background-color: #1A1A1A;
+    margin: 0%;
+    padding: 0%;
+}
+.logo h2 {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+}
+#logo_img {
+    position: absolute;
+    top: 4.3%;
+    left: 2%
+}
+.sidebar {
+    background-color: #3b3b3b;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+}
+.dropdown {
+    position: relative;
+    top: 30%;
+    left: 10%;
+    font-size: larger;
+}
+.center {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+.cards {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    width: 95%;
+    height: 22%;
+}
+.card {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    margin-left: 9%;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+.card text {
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+.reservations {
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 95%;
+    height: 7%;
+}
+.reservation {
+    background-color: #272727;
+    padding: 2% 2%;
+    border-radius: 11px;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+.dc_user {
+    margin-left: 10%;
+    font-size: x-large;
+}
+.username {
+    font-size: x-large;
+}
+#btns {
+    position: relative;
+    left: 32%;
+    margin-right: 2%;
+    background-color: #3F3F3F;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 0.4% 2%;
+    text-decoration: none;
+}
+.info {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}

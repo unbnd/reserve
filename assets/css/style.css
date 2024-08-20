@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    background-color: #1A1A1A;
+    font-family: 'Poppins';
+}
+.navbar * {
+    color: #fff;
+    background-color: transparent;
+}
+.nav_btns a{
+    margin-right: 20%;
+}
+.nav_btns {
+    position: absolute;
+    width: 50%;
+    top: 6%;
+    left: 50%;
+}
+.logo h2 {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+#logo_img {
+    position: absolute;
+    top: 3.1%;
+    left: 2%
+}
+
+.center {
+    position: absolute;
+    background-color: #272727;
+    color: #2D66F8;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    border-radius: 7px;
+}
+.center * {
+    background-color: transparent;
+}
+.seperator {
+    background-color: #3F3F3F;
+    width: 90%;
+    height: 10px;
+    border-radius: 7px;
+    position: relative;
+    left: 5%;
+}
+#dc_log {
+    background-color: #3F3F3F;
+    border: #2D66F8 2px solid;
+    border-radius: 7px;
+    padding: 2% 12%;
+    position: relative;
+    top: 15%;
+}
+#dc_log_for_imput {
+    background-color: #3F3F3F;
+    border: #2D66F8 2px solid;
+    border-radius: 7px;
+    padding: 2% 1%;
+    position: left;
+    top: 15%;
+}
+.info {
+    position: relative;
+    top: 20%;
+}
+.center img {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    top: 10%;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .center {
+        height: 45%;
+    }
+    .logo h2 {
+        left: 6%;
+    }
+    #logo_img {
+        top: 3.1%;
+    }
+}

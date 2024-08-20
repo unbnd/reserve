@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PostNow | Reserve</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- -<script src="./assets/js/scripts.js" type="module"></script> --->
+    <script src=" https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.21.0/dist/umd/supabase.min.js "></script>
+    <script>
+        const sb = supabase.createClient('https://db.lslslkofvbnjtjgfdwcq.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzbHNsa29mdmJuanRqZ2Zkd2NxIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM0NjgwMTQsImV4cCI6MTk5OTA0NDAxNH0.DyqVwFgwIyxQpX6V9RrPs2HqbmIrY7ysKFxMXhz12DQ')
+        // it works!
+    </script>
+</head>
+<body>
+    <div class="navbar">
+
+        <div class="logo">
+            <img src="./assets/imgs/Divgram.png" id="logo_img">
+            <h2>PostNow!</h2>
+        </div>
+
+        <div class="nav_btns"> <!-- made transparent due the home, about page not being done-->
+            <a href="#" style="color: #ffffff00; text-decoration: none;">Home</a>
+            <a href="#" style="color: #ffffff00; text-decoration: none;">About</a>
+            <a href="#" style="color: #ffffff00; text-decoration: none;">Reserve</a> <!--margin-right: 0%; -->
+        </div>
+
+
+    </div>
+
+    <div class="center">
+        <img src="./assets/imgs/lock.png">
+        <div>&nbsp;</div>
+        <h3>Reserve</h3>
+        <div class="seperator">&nbsp;</div>
+        <div>&nbsp;</div>
+        <!-- form for input to go to action_page -->
+        <form action="action_page.php" method="post">
+            <label for="username">Username &nbsp;</label>
+            <input style="text-decoration: none; color: #fff;" placeholder="Enter your username here." id="dc_log_for_imput" type="text" name="username">
+            <br><br>
+            <input style="text-decoration: none; color: #fff; cursor: pointer;" id="dc_log" type="submit" value="Submit">
+          </form>
+        <p class="info" style="color: #fff;">By reserving an account, you agree to our terms and conditions</p>
+    </div>
+
+</body>
+
+</html>

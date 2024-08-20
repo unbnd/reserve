@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PostNow | Reserve</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src=" https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.21.0/dist/umd/supabase.min.js "></script>
+
+
+    <script>
+
+        const sb = supabase.createClient('https://db.lslslkofvbnjtjgfdwcq.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzbHNsa29mdmJuanRqZ2Zkd2NxIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM0NjgwMTQsImV4cCI6MTk5OTA0NDAxNH0.DyqVwFgwIyxQpX6V9RrPs2HqbmIrY7ysKFxMXhz12DQ')
+        // it works!
+    </script>
+<script async>
+    async function checkSession(){
+      let session = await sb.auth.getSession();
+      if(session.session != null){
+        window.location.href = "/reservusers.html";
+      }
+    }
+    
+    (async () => {
+      await checkSession();
+    })();
+    </script>
+</head>
+
+
+
+<body>
+    <div class="navbar">
+
+        <div class="logo">
+            <img src="./assets/imgs/Divgram.png" id="logo_img">
+            <h2>PostNow!</h2>
+        </div>
+
+        <div class="nav_btns"> <!-- made transparent due the home, about page not being done-->
+            <a href="#" style="color: #ffffff00; text-decoration: none;">Home</a>
+            <a href="#" style="color: #ffffff00; text-decoration: none;">About</a>
+            <a href="#" style="color: #ffffff00; text-decoration: none;">Reserve</a> <!--margin-right: 0%; -->
+        </div>
+
+    </div>
+
+    <div class="center">
+        <img src="./assets/imgs/lock.png">
+        <div>&nbsp;</div>
+        <h3>Reserve</h3>
+        <div class="seperator">&nbsp;</div>
+        <button onclick="sb.auth.signInWithOAuth({provider: 'discord'})" style="text-decoration: none; color: #fff;" id="dc_log">Login with Discord</button> <!-- here is the button, which will trigger signinwithdiscord function but it cant find the function-->
+        <p class="info" style="color: #fff;">Max. 1 account per discord account.</p>
+    </div>
+
+</body>
+
+
+
+</html>

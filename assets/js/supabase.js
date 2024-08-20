@@ -1,0 +1,2 @@
+const { createClient } = supabase
+const _supabase = createClient('https://db.lslslkofvbnjtjgfdwcq.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzbHNsa29mdmJuanRqZ2Zkd2NxIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM0NjgwMTQsImV4cCI6MTk5OTA0NDAxNH0.DyqVwFgwIyxQpX6V9RrPs2HqbmIrY7ysKFxMXhz12DQ')
