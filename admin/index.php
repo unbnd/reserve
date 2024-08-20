@@ -18,7 +18,7 @@ require_once "config.php";
     <div class="sidebar">
         <div class="logo">
             <img src="../assets/imgs/Divgram.png" id="logo_img">
-            <h2>PostNow!</h2>
+            <h2>UnbndR</h2>
         </div>
         <div class="dropdown">
             <a href="index.php" style="text-decoration: none;"><u>Dashboard</u></a>

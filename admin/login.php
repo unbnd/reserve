@@ -91,7 +91,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 <html lang="en">
 <head>
-    <title>PostNow | Administration Login</title>
+    <title>UnbndR | Administration Login</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- -<script src="./assets/js/scripts.js" type="module"></script> --->
     <script src=" https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.21.0/dist/umd/supabase.min.js "></script>
@@ -105,7 +105,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         <div class="logo">
             <img src="../assets/imgs/Divgram.png" id="logo_img">
-            <h2>PostNow!</h2>
+            <h2>UnbndR</h2>
         </div>
 
         <div class="nav_btns"> <!-- made transparent due the home, about page not being done-->
