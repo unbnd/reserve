@@ -9,5 +9,5 @@ It functions via discord oauth2 to make users able to reserve a unique unbound u
 This license allows you to copy the files but you're not allowed to make any changes.
 
 ## Credits
-Code: @tmrxdev (github) | @angeryt (discord)
-Unbound platform (awesome): Venus and Nova
+### Code & Readme: tmrxdev (github) angeryt (discord
+### The Unbound Project: Nova and Venus
