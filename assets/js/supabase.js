@@ -1,2 +1,4 @@
-const { createClient } = supabase
-const _supabase = createClient('https://db.lslslkofvbnjtjgfdwcq.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzbHNsa29mdmJuanRqZ2Zkd2NxIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM0NjgwMTQsImV4cCI6MTk5OTA0NDAxNH0.DyqVwFgwIyxQpX6V9RrPs2HqbmIrY7ysKFxMXhz12DQ')
+import { createClient } from '@supabase/supabase-js'
+
+// Create a single supabase client for interacting with your database
+const supabase = createClient('[https://xyzcompany.supabase.co](https://ividghsmcwfjxsgumkny.supabase.co/)', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml2aWRnaHNtY3dmanhzZ3Vta255Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQxNzMwNTYsImV4cCI6MjAzOTc0OTA1Nn0.2EjsXqZGbDkdPJ5OCT5E7FhXThvLglsuji78DIG2t0w')
